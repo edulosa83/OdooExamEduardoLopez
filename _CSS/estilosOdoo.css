@@ -1,0 +1,869 @@
+@charset "UTF-8";
+/* CSS Document */
+      /*Basicos*/
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .container,
+      .container-lg,
+      .container-md,
+      .container-sm {
+        max-width: 90%;
+      }
+
+      .d-flex {
+        justify-content: space-between
+      }
+
+      /*Navbar*/
+      /*.navbar {
+        position: sticky;
+        top: -10px;
+        z-index: 1000;
+      }*/
+      .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #028aff;
+      }
+
+      .navButtons>button {
+        margin-left: 10px;
+      }
+
+      .navButtons>button:first-child {
+        color: white;
+      }
+
+      .navbar-toggler {
+        border: none;
+        outline: none;
+      }
+
+      .navbar-toggler:focus {
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon {
+        display: inline-block;
+      }
+
+      .navButtons .btn-light {
+        padding: 0.375rem 1.25rem;
+      }
+
+      .btn-light .fas {
+        margin-right: 0.5rem;
+      }
+
+      .navbar-nav .nav-link {
+        color: white !important;
+      }
+
+      .navbar-nav .nav-link.active {
+        color: white !important;
+      }
+
+      .navcontainer {
+        border-bottom: 2px solid #ffffff4f;
+        background-color: #028aff;
+        padding: 1.5em 0px;
+      }
+
+      /*introducción*/
+      .intro {
+        background-color: #028aff;
+      }
+
+      .intro h1,
+      .intro p {
+        color: #fff;
+        margin: 0;
+      }
+
+      #presentacion {
+        align-items: center;
+        display: flex;
+        padding-top: 11em;
+      }
+
+      .presentacionIzquierda h1 {
+        font-weight: 800;
+        margin: 0.8em 0;
+      }
+
+      .presentacionIzquierda p {
+        margin: 2em 0;
+        white-space: nowrap
+      }
+
+      .logosInfo {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.8em 0;
+        align-items: center;
+        justify-content: space-between
+      }
+
+      .logosInfo img {
+        width: 4em;
+        margin: 0 0.4em;
+      }
+
+      .img-l-col-banner {
+        width: 80px;
+      }
+
+      .myCard {
+        padding: 1.5rem;
+        border-radius: 1rem 1rem 5rem 1rem;
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      .myCard p {
+        color: #000;
+      }
+
+      .cardHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0.8rem 0;
+      }
+
+      .cardHeader>button {
+        background-color: #fff;
+        border-color: #e2e8f0;
+      }
+
+      .cardHeader>button {
+        padding: 0.375rem 1.25rem;
+      }
+
+      .creditCard {
+        padding: 1.2rem;
+        border-radius: 0.4rem;
+        background-color: #1d1247;
+        font-family: Roboto;
+        background-image: url('_assets/fondoAmerica.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 1em 0;
+      }
+
+      .statusCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.8rem 0;
+      }
+
+      .statusCard p {
+        font-size: 0.8rem;
+        color: #ffffff;
+        background-color: #5bc9a7;
+        border-radius: 0.4rem;
+        padding: 5px 10px;
+      }
+
+      .creditCardTitles p {
+        color: #fff;
+        font-size: 0.7rem;
+      }
+
+      .contenedorNumeros {
+        resize: horizontal;
+        margin: 0.8rem 0;
+        width: 100%;
+      }
+
+      .creditCardNumbers {
+        font-family: 'Halter', sans-serif;
+        width: 100%;
+        font-size: 0.73em !important;
+      }
+
+      .infoCard {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0.8rem 0;
+      }
+
+      .sumary1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em 0 0 0;
+      }
+
+      .quotation {
+        color: gray !important;
+        font-size: 0.7em;
+        border-bottom: 1px solid #8080803b;
+        padding-bottom: 1em;
+      }
+
+      .quotationLink {
+        color: gray !important;
+        font-size: 0.7em;
+        margin: 1em 0;
+      }
+
+      /*Separador*/
+      .separator {
+        transform: skewY(-1deg) scaleY(1.7) translateY(60%);
+        transform-origin: 1 50%;
+        height: 3em;
+        background-color: #028aff;
+      }
+
+      .separator2 {
+        transform: skewY(-1deg) scaleY(1.7) translateY(0%);
+        transform-origin: 1 50%;
+        height: 3em;
+        background-color: #171347;
+      }
+
+      /*Proyectos*/
+      #proyectos {
+        margin-top: 12em;
+      }
+
+      .foto1 {
+        width: 100%;
+        top: 0px;
+        border-radius: 20px;
+        left: 0px;
+      }
+
+      .foto2 {
+        width: 100%;
+        top: 0px;
+        border-radius: 20px;
+        left: 0px;
+      }
+
+      .foto3 {
+        width: 100%;
+        top: 0px;
+        border-radius: 20px;
+        left: 0px;
+      }
+
+      .wrapper #proyectos {
+        display: flex;
+        align-items: stretch;
+      }
+
+      .col-12.col-md-5 #proyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .vertical-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 500px;
+      }
+
+      .videoplayer1 {
+        position: absolute !important;
+        margin: -235px 0 0 190px;
+        z-index: 100;
+        border-radius: 5px;
+      }
+
+      .videoplayer2 {
+        position: absolute !important;
+        margin: -235px 0 0 15px;
+        z-index: 100;
+        border-radius: 5px;
+      }
+
+      .videoplayer3 {
+        position: absolute !important;
+        margin: 15px 0 0 -300px;
+        z-index: 100;
+        border-radius: 5px;
+      }
+
+      .circulo {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .circulo>p {
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+
+      .projectsTable {
+        position: absolute;
+        margin: -117px 0 0 60px;
+        z-index: 10;
+        background-color: #fff;
+        scale: 0.7;
+      }
+
+      .tarjetaProyectos {
+        padding: 1rem !important;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+      }
+
+      .tarjetaProyectosTitulo {
+        margin-bottom: .75rem;
+      }
+
+      .progress {
+        height: 2px;
+        margin-bottom: 1.5rem !important;
+      }
+
+      .progress-bar {
+        background-color: #fdbe3d;
+        height: 2px;
+      }
+
+      .progress-container p {
+        padding-bottom: .5rem !important;
+      }
+
+      .second ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 0;
+        color: #fff;
+      }
+
+      .second .ul-g {
+        color: #5ccaa7;
+        margin: 2em 0
+      }
+
+      .second i {
+        padding-right: .5rem !important;
+      }
+
+      .cardGrid .card {
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+        border: 1px solid #D1D2D270;
+      }
+
+      .cardGrid .profile-image {
+        border-radius: 20px 20px 0 0;
+        object-fit: cover
+      }
+
+      .cardGrid .profile-card .card-body {
+        padding-top: 10px;
+      }
+
+      .cardGrid .avatar {
+        width: 50px;
+        height: 50px;
+        background-color: #FFC107;
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+
+      .cardGrid .rating-card {
+        text-align: center;
+      }
+
+      .cardGrid .rating-card .card-body {
+        padding: 1.25rem;
+      }
+
+      .cardGrid .ui-kit-card .card-body {
+        padding: 1.25rem;
+      }
+
+      .cardGrid .ui-kit-card .profile-images {
+        display: flex;
+        justify-content: center;
+        gap: -1rem;
+      }
+
+      .cardGrid .ui-kit-card .profile-images img {
+        border: 2px solid #fff;
+        border-radius: 50%;
+      }
+
+      .cardGrid .icon {
+        color: #6c757d;
+      }
+
+      .btn-green {
+        width: auto;
+        color: #fff;
+        background-color: #5ccaa7
+      }
+
+      .btn-yellow {
+        width: auto;
+        color: #fff;
+        background-color: #FEBE3E
+      }
+
+      .btn-secondYellow {
+        width: auto;
+        color: #fff;
+        background-color: #FEBE3E
+      }
+
+      .btn-blue {
+        width: auto;
+        color: #fff;
+        background-color: #008AFF
+      }
+
+      .btn-blue2 {
+        width: auto;
+        color: #fff;
+        background-color: #008AFF
+      }
+
+      .appStores {
+        gap: 4%;
+        display: flex;
+        margin-top: 2em
+      }
+
+      .appStores img {
+        width: 45%
+      }
+
+      /*Cintillo*/
+      #cintillo {
+        margin: 3em 0;
+      }
+
+      .contenedorCintillo {
+        background-color: #171347;
+        border-radius: 0rem 3rem 0rem 3rem;
+        padding: 3em
+      }
+
+      .contenedorCintillo h3 {
+        font-weight: 500;
+        color: #fff;
+      }
+
+      .contenedorCintillo p {
+        color: #fff;
+      }
+
+      /*Premios*/
+      #premios {
+        background-color: #FAFBFE;
+        padding-top: 3em
+      }
+
+      .premios img {
+        width: 50%;
+        margin-bottom: 1em
+      }
+
+      .grupoTarjetas {
+        margin: 0
+      }
+
+      .awardCard {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+        border-radius: 20px;
+        padding: 2rem 0 1rem 0 !important;
+        font-size: 1em;
+        color: #ABAABD !important;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+
+      .awardCard:hover {
+        transform: scale(1.05);
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+      }
+
+      .premios a {
+        text-decoration: none !important;
+      }
+
+      .card-text {
+        color: #000;
+        font-weight: 800;
+      }
+
+      .cardLink {
+        border-bottom: 2px solid #000;
+        display: inline-block;
+        margin: 1em auto 0 auto;
+      }
+
+      .desfase {
+        margin: 2em 0;
+      }
+
+      /*F.A.Q.*/
+      .accordeonFAQ {
+        margin: 3em 0
+      }
+
+      .faq-heading {
+        font-weight: 400;
+        font-size: 19px;
+        -webkit-transition: text-indent 0.2s;
+        text-indent: 20px;
+        color: #333;
+      }
+
+      .faq-text {
+        font-weight: 400;
+        color: #919191;
+        width: 95%;
+        padding-left: 20px;
+        margin-bottom: 30px;
+      }
+
+      .faq {
+        width: 100%;
+        margin: -20px auto 0;
+        background: white;
+        border-radius: 4px;
+        position: relative;
+      }
+
+      .faq p {
+        margin-top: 1em !important;
+      }
+
+      .faq label {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: #FAFAFA;
+        margin: 1.5em 0;
+        box-shadow: 0 .05rem 1rem rgba(0, 0, 0, .1);
+      }
+
+      .faq input[type="checkbox"] {
+        display: none;
+      }
+
+      .faq .faq-arrow {
+        width: 5px;
+        height: 5px;
+        transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        border-top: 2px solid rgba(0, 0, 0, 0.33);
+        border-right: 2px solid rgba(0, 0, 0, 0.33);
+        float: right;
+        position: relative;
+        top: -30px;
+        right: 27px;
+        transform: rotate(45deg);
+      }
+
+      .faq input[type="checkbox"]:checked+label>.faq-arrow {
+        transform: rotate(135deg);
+      }
+
+      .faq input[type="checkbox"]:checked+label {
+        display: block;
+        background: rgba(255, 255, 255, 255) !important;
+        color: #4f7351;
+        height: auto;
+        transition: height 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      .faq input[type="checkbox"]:not(:checked)+label {
+        display: block;
+        height: 60px;
+        transition: height 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      /*Footer*/
+      footer {
+        background-color: #171347;
+        padding-top: 3em;
+      }
+
+      footer p {
+        color: #ABAABD
+      }
+
+      footer h3 {
+        color: #fff
+      }
+
+      footer ul {
+        color: #fff;
+      }
+
+      footer li {
+        color: #ABAABD
+      }
+
+      footer strong {
+        color: #fff !important
+      }
+
+      .infoFooter {
+        margin: 3em 0
+      }
+
+      .oddoFooterLogo {
+        width: 6em;
+        margin-bottom: 1em
+      }
+
+      .footer-list strong {
+        margin-bottom: 1em;
+      }
+
+      .footer-list ul {
+        list-style-type: none;
+      }
+
+      .footer-list {
+        align-items: flex-start;
+      }
+
+      .RRSS {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 40%;
+        margin-bottom: 2em
+      }
+
+      .RRSS img {
+        width: 2em
+      }
+
+      @media (min-width: 576px) {
+
+        /*introducción*/
+        .statusCard {
+          margin: 0.5rem 0;
+        }
+
+        .creditCardNumbers {
+          font-size: 1.31em !important
+        }
+
+        .projectsTable {
+          margin: -150px 0 0 200px;
+          scale: 1;
+        }
+
+        .videoplayer1 {
+          margin: -380px 0 0 370px;
+        }
+
+        .videoplayer2 {
+          margin: -375px 0 0 15px;
+        }
+
+        .videoplayer3 {
+          margin: 15px 0 0 -478px;
+        }
+      }
+
+      @media (min-width: 768px) {
+
+        /*introducción*/
+        .presentacionIzquierda p {
+          font-size: 0.8em;
+        }
+
+        .logosInfo img {
+          width: 3em;
+        }
+
+        .creditCardNumbers {
+          font-size: 0.57em !important
+        }
+
+        .projectsTable {
+          position: absolute;
+          margin: -80px 0 0 -40px;
+          z-index: 10;
+          background-color: #fff;
+          scale: 0.8;
+        }
+
+        .videoplayer1 {
+          margin: -200px 0 0 146px;
+        }
+
+        .videoplayer2 {
+          margin: -200px 0 0 10px;
+        }
+
+        .videoplayer3 {
+          margin: 15px 0 0 -250px;
+        }
+
+        .grupoTarjetas {
+          margin: 2em 0
+        }
+
+        .desfase {
+          margin: 5em 0;
+        }
+      }
+
+      @media (min-width: 992px) {
+
+        /*Navbar*/
+        .navbar-nav {
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        /*introducción*/
+        .presentacionIzquierda p {
+          font-size: 1em;
+        }
+
+        .logosInfo {
+          grid-template-columns: repeat(6, 1fr);
+        }
+
+        .logosInfo img {
+          width: 4em;
+        }
+
+        .myCard {
+          width: 100%;
+          float: right;
+        }
+
+        .statusCard {
+          margin: 0.8rem 0;
+        }
+
+        .creditCardNumbers {
+          font-size: 0.84em !important
+        }
+
+        .foto1 {
+          width: 300px;
+        }
+
+        .projectsTable {
+          margin: -90px 0 0 80px;
+        }
+
+        .videoplayer1 {
+          margin: -225px 0 0 175px;
+        }
+
+        .videoplayer2 {
+          margin: -260px 0 0 15px
+        }
+
+        .videoplayer3 {
+          margin: 15px 0 0 -335px
+        }
+      }
+
+      @media (min-width: 1200px) {
+
+        /*introducción*/
+        .logosInfo img {
+          width: 5em;
+        }
+
+        .creditCard {
+          height: 250px
+        }
+
+        .statusCard {
+          margin: 1.2rem 0;
+        }
+
+        .statusCard img {
+          width: 55px
+        }
+
+        .creditCardNumbers {
+          font-size: 1.09em !important
+        }
+
+        .projectsTable {
+          margin: -100px 0 0 80px;
+          scale: 1;
+        }
+
+        .videoplayer2 {
+          margin: -320px 0 0 20px;
+        }
+
+        .videoplayer3 {
+          margin: 20px 0 0 -405px;
+        }
+
+        .grupoTarjetas {
+          margin: 5em 0
+        }
+      }
+
+      @media (min-width: 1440px) {
+
+        /*introducción*/
+        .logosInfo img {
+          width: 6em;
+        }
+
+        .creditCard {
+          height: 290px
+        }
+
+        .creditCardNumbers {
+          font-size: 1.38em !important
+        }
+
+        .projectsTable {
+          margin: -60px 0 0 160px;
+          scale: 1;
+        }
+
+        .videoplayer2 {
+          margin: -390px 0 0 20px;
+        }
+
+        .videoplayer3 {
+          margin: 20px 0 0 -495px
+        }
+      }

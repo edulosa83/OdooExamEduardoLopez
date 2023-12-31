@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://fonts.cdnfonts.com/css/halter" rel="stylesheet">
+	<link rel="stylesheet" href="_CSS/estilosOdoo.css">
+	<link rel="stylesheet" href="_JS/menuOdoo.css">  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- ESTILOS -->
+    
+  </head>
+  <body>
+    <!-- 1. INTRO -->
+    <section class="intro">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark static-top">
+        <div class="container navcontainer">
+          <a class="navbar-odoo" href="#">
+            <img src="_assets/odoo-white.svg" alt="..." height="36" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-close d-none"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-bag pr-2"></i> Buy now </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navButtons d-none d-lg-block">
+            <button type="button" class="btn">Sign in</button>
+            <button type="button" class="btn btn-light">
+              <i class="bi bi-bag pr-2"></i> Buy now </button>
+          </div>
+        </div>
+      </nav>
+      <!-- PRESENTACION -->
+      <section id="presentacion">
+        <div class="container">
+          <div class="wrapper row d-flex align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="presentacionIzquierda">
+                <h1> Development <br /> done right </h1>
+                <p> Build a beautiful, modern website with <br /> flexible components built from scratch. </p>
+                <button type="button" class="btn btn-light">Get started <i class="bi bi-arrow-right-short"></i>
+                </button>
+                <div class="logosInfo">
+                  <p>Trusted by:</p>
+                  <img src="_assets/google-white.svg" alt="Google" />
+                  <img src="_assets/spotify-white.svg" alt="Spotify" />
+                  <img src="_assets/airbnb-white.svg" alt="Airbnb" />
+                  <img src="_assets/paypal-white.svg" alt="Paypal" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 ms-auto">
+              <div class="myCard">
+                <div class="cardHeader">
+                  <p>Manage cards</p>
+                  <button type="button" class="btn btn-light">Add new</button>
+                </div>
+                <div class="creditCard creditCardTitles">
+                  <div class="statusCard">
+                    <img src="_assets/mastercard.svg" alt="Master Card" />
+                    <p>Active</p>
+                  </div>
+                  <p>CARD NUMBER</p>
+                  <div class="contenedorNumeros">
+                    <p class="creditCardNumbers">4358 - 7421 - 9256 - 6682</p>
+                  </div>
+                  <div class="col-12">
+                    <div class="row infoCard">
+                      <div class="col-6" style="padding-left: 0;">
+                        <p>NAME</p>
+                        <p>John Snow</p>
+                      </div>
+                      <div class="col-6">
+                        <p>EXPIRY DATE</p>
+                        <p>11/23</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sumary1">
+                  <p>Starbucks</p>
+                  <p>$5,50 USD</p>
+                </div>
+                <p class="quotation">Pending - San Francisco, United States</p>
+                <div class="sumary1">
+                  <p>Nike Sports</p>
+                  <p>$129,00 USD</p>
+                </div>
+                <p class="quotation">Pending - Lisbon, Portugal</p>
+                <div class="quotationLink">
+                  <a href="" style="border-bottom: 2px dotted rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1)); text-decoration: none;">View all &gt;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SEPARADOR -->
+      <div class="separator"></div>
+    </section>
+    <!-- 2. PROYECTOS -->
+    <section id="proyectos">
+      <div class="container first">
+        <div class="wrapper row d-flex justify-content-center align-items-stretch">
+          <div class="col-12 col-md-5 mx-auto">
+            <div class="primerProyecto">
+              <img class="foto1" src="_assets/img_01.jpg" alt="team">
+            </div>
+            <button type="button" class="btn btn-sm btn-light videoplayer1">Play video <i class="bi bi-play pl-1"></i>
+            </button>
+            <div class="projectsTable">
+              <div class="tarjetaProyectos">
+                <p class="tarjetaProyectosTitulo"> Awesome projects </p>
+                <div class="progress-container">
+                  <div class="d-flex">
+                    <p>Create the new logo</p>
+                    <div class="d-flex">
+                      <p>4:06 </p>
+                      <i class="bi bi-arrow-right-short"></i>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 45%"></div>
+                  </div>
+                </div>
+                <div class="progress-container">
+                  <div class="d-flex">
+                    <p>Set up the color palette</p>
+                    <div class="d-flex">
+                      <p>5:28 </p>
+                      <i class="bi bi-arrow-right-short"></i>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 60%"></div>
+                  </div>
+                </div>
+                <div class="progress-container">
+                  <div class="d-flex">
+                    <p>Wireframe and prototype</p>
+                    <div class="d-flex">
+                      <p>6:50</p>
+                      <i class="bi bi-arrow-right-short"></i>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 ms-auto">
+            <div class="vertical-center d-inline-flex align-items-start">
+              <button type="button" class="btn btn-warning btn-sm border-0 rounded-pill btn-yellow text-w mb-4 font-weight-bold" href="">Tools</button>
+              <h2>We build for designers and developers</h2>
+              <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container second">
+        <div class="wrapper row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-5 order-2 order-md-1 mx-auto">
+            <div class="vertical-center d-inline-flex align-items-start">
+              <button type="button" class="btn btn-success btn-sm border-0 rounded-pill btn-green text-w mb-4 font-weight-bold" href="">Features</button>
+              <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+              <ul class="ul-g">
+                <li>
+                  <i class="bi bi-check-square-fill pr-2"></i>Perfect for modern startups
+                </li>
+                <li>
+                  <i class="bi bi-check-square-fill pr-2"></i>Fully customizable and scalable
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 order-1 order-md-2 ms-auto">
+            <div class="segundoProyecto">
+              <img class="foto2" src="_assets/img_02.jpg" alt="team">
+            </div>
+            <button type="button" class="btn btn-sm btn-light videoplayer2">Play video <i class="bi bi-play pl-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container third">
+        <div class="wrapper row d-flex justify-content-center align-items-center">
+          <div class="cardGrid">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <div class="card profile-card">
+                  <img alt="Profile image placeholder" class="card-img-top profile-image" height="300" src="_assets/person_03.jpg" width="300" />
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <div class="avatar me-3"> JH </div>
+                      <h5 class="card-title mb-0"> Jimmy Hendrix </h5>
+                      <i class="fas fa-heart float-end ms-auto"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-check-circle fa-2x text-success me-3"></i>
+                      <div>
+                        <p class="mb-0"> 300+ components </p>
+                        <p class="mb-0"> Built to be customized. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card rating-card">
+                  <div class="card-body">
+                    <img alt="Airbnb logo placeholder" class="mb-3" height="50" src="_assets/airbnb.svg" width="100" />
+                    <div>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <p class="card-text mt-3">
+                      <strong> 4.95 out of 5 stars </strong>
+                    </p>
+                    <p class="card-title text-p-d"> from 23 reviews </p>
+                  </div>
+                </div>
+                <div class="card ui-kit-card">
+                  <div class="card-body">
+                    <div class="profile-images mb-3">
+                      <img alt="Profile image placeholder" class="rounded-circle" height="80" src="_assets/company_01.png" width="80" />
+                    </div>
+                    <h5 class="card-title text-center mb-3"> Website UI Kit </h5>
+                    <div class="profile-images mb-3">
+                      <img alt="Profile image placeholder" class="rounded-circle" height="50" src="_assets/person_01.jpg" width="50" />
+                      <img alt="Profile image placeholder" class="rounded-circle" height="50" src="_assets/person_02.jpg" width="50" />
+                      <img alt="Profile image placeholder" class="rounded-circle" height="50" src="_assets/person_03.jpg" width="50" />
+                    </div>
+                    <div class="text-center">
+                      <i class="fas fa-paperclip icon"></i>
+                      <i class="fas fa-eye icon mx-3"></i>
+                      <i class="fas fa-heart icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 ms-auto">
+                <div class="vertical-center d-inline-flex align-items-start">
+                  <button type="button" class="btn btn-primary btn-sm border-0 rounded-pill btn-blue text-w mb-4 font-weight-bold" href="">Technology</button>
+                  <h2>We use the latest technologies on the market</h2>
+                  <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+                  <a href=""> See case studies</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container fourth">
+        <div class="wrapper row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-5 order-2 order-md-1 mx-auto">
+            <div class="vertical-center d-inline-flex align-items-start">
+              <button type="button" class="btn btn-warning btn-sm border-0 rounded-pill btn-secondYellow text-w mb-4 font-weight-bold" href="">Easy to install</button>
+              <h2>Download, install and run.</h2>
+              <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+              <div class="appStores">
+                <img src="_assets/appStore.png" alt="Appstore">
+                <img src="_assets/playStore.png" alt="Playstore">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 order-1 order-md-2 ms-auto">
+            <div class="cuartoProyecto">
+              <img class="foto3" src="_assets/img_03.jpg" alt="team">
+              <button type="button" class="btn btn-sm btn-light videoplayer3">Play video <i class="bi bi-play pl-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3. CINTULLO -->
+    <section id="cintillo">
+      <div class="container contenedorCintillo">
+        <div class="wrapper row d-flex align-items-center">
+          <div class="col-12 col-md-6 ms-auto">
+            <h3>Infinite solutions</h3>
+            <p>Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into incredible products. </p>
+          </div>
+          <div class="col-12 col-md-3 ms-auto">
+            <button type="button" class="btn btn-light">Learn more <i class="bi bi-arrow-right-short"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4. AWARDS -->
+    <section id="premios">
+      <div class="container premios">
+        <div class="wrapper row d-flex justify-content-center">
+          <div class="col-12">
+            <button type="button" class="btn btn-primary btn-sm border-0 rounded-pill btn-blue2 text-w mb-4 font-weight-bold" href="">Awards</button>
+            <p>Awards for design, creativity, and innovation on the Internet</p>
+          </div>
+          <div class="grupoTarjetas row">
+            <div class="col-12 col-md-4 col-xl-2 my-0 mx-auto">
+              <a href="https://www.airbnb.com/" target="_blank">
+                <div class=" awardCard card desfase">
+                  <img src="_assets/airbnb.svg" class="card-img-top w-50 mx-auto d-block" alt="airbnb logo">
+                  <div class="card-body text-center">
+                    <img class="pb-3" src="_assets/star.svg" alt="">
+                    <p class="card-text text-gray">4.95 out of 5 stars</p>
+                    <p class="card-title text-p-d">from 23 reviews</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2 my-0 mx-auto">
+              <a href="https://www.amazon.com/" target="_blank">
+                <div class=" awardCard card">
+                  <img src="_assets/amazon.svg" class="card-img-top w-50 mx-auto d-block" alt="airbnb logo">
+                  <div class="card-body text-center">
+                    <p class="card-title text-p-d">They build modern-looking websites easily using Tabs.</p>
+                    <p class="card-text text-gray cardLink"> Learn more </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2 my-0 mx-auto">
+              <a href="https://slack.com/" target="_blank">
+                <div class=" awardCard card desfase">
+                  <img src="_assets/slack.svg" class="card-img-top w-50 mx-auto d-block" alt="airbnb logo">
+                  <div class="card-body text-center">
+                    <p class="card-title text-p-d">They build modern-looking websites easily using Tabs.</p>
+                    <p class="card-text text-gray cardLink"> Learn more </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2 my-0 mx-auto">
+              <a href="https://open.spotify.com/" target="_blank">
+                <div class=" awardCard card">
+                  <img src="_assets/spotify.svg" class="card-img-top w-50 mx-auto d-block" alt="airbnb logo">
+                  <div class="card-body text-center">
+                    <img class="pb-3" src="_assets/star.svg" alt="">
+                    <p class="card-text text-gray">4.95 out of 5 stars</p>
+                    <p class="card-title text-p-d">from 23 reviews</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2 my-0 mx-auto">
+              <a href="https://www.paypal.com/" target="_blank">
+                <div class=" awardCard card desfase">
+                  <img src="_assets/paypal.svg" class="card-img-top w-50 mx-auto d-block" alt="airbnb logo">
+                  <div class="card-body text-center">
+                    <p class="card-title text-p-d">They build modern-looking websites easily using Tabs.</p>
+                    <p class="card-text text-gray cardLink"> Learn more </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5. FAQ -->
+    <section id="preguntas">
+      <div class="container preguntas">
+        <div class="wrapper row d-flex justify-content-center">
+          <div class="col-12 text-center">
+            <div class="accordeonFAQ">
+              <h3>Helpful answers</h3>
+              <p>Start building fast, beautiful, and modern-looking websites in no time.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-0">
+            <div class="faq">
+              <input id="faq-a" type="checkbox">
+              <label for="faq-a">
+                <p class="faq-heading">
+                  <i class="bi bi-file-earmark"></i> Which license do I need?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">Determining the right Odoo license for your needs is based on your specific requirements. If you're a small business or individual looking for essential features and are comfortable with open-source software, the Odoo Community Edition is a free option that could work for you. However, if you require more advanced features, additional modules, and official support, you'll want to consider the Odoo Enterprise Edition, which requires a subscription. Another option is Odoo Online, a cloud-based service with subscription-based pricing, which might be suitable depending on the number of users and applications you need. To make the best choice, assess your organization's size, the complexity of your business processes, and your support and feature requirements. You can find detailed information on licensing options and pricing on Odoo's official website or contact their sales team for personalized guidance. </p>
+              </label>
+              <input id="faq-b" type="checkbox">
+              <label for="faq-b">
+                <p class="faq-heading">
+                  <i class="bi bi-lock"></i> How do I get access to my database?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">To access your database in Odoo, start by logging into your Odoo account. Once logged in, click on your username or profile picture in the top right corner to reveal a dropdown menu. Look for an option like "Manage Databases" or "My Databases" and click on it. You'll then see a list of databases associated with your account; simply select the one you wish to access. You'll be redirected to the chosen database, where you can efficiently manage and work with your data. It's a straightforward process to access your Odoo database, and if you have any additional inquiries or need further assistance, please don't hesitate to reach out. </p>
+              </label>
+              <input id="faq-c" type="checkbox">
+              <label for="faq-c">
+                <p class="faq-heading">
+                  <i class="bi bi-folder2-open"></i> How do I see previous orders?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">To view previous orders in Odoo, simply log in to your account and navigate to the relevant section, either "Sales" or "Purchases." In that section, you will find a complete history of all the orders you have placed previously. </p>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-0">
+            <div class="faq">
+              <input id="faq-d" type="checkbox">
+              <label for="faq-d">
+                <p class="faq-heading">
+                  <i class="bi bi-file-earmark"></i> Which license do I need?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">Determining the right Odoo license for your needs is based on your specific requirements. If you're a small business or individual looking for essential features and are comfortable with open-source software, the Odoo Community Edition is a free option that could work for you. However, if you require more advanced features, additional modules, and official support, you'll want to consider the Odoo Enterprise Edition, which requires a subscription. Another option is Odoo Online, a cloud-based service with subscription-based pricing, which might be suitable depending on the number of users and applications you need. To make the best choice, assess your organization's size, the complexity of your business processes, and your support and feature requirements. You can find detailed information on licensing options and pricing on Odoo's official website or contact their sales team for personalized guidance. </p>
+              </label>
+              <input id="faq-e" type="checkbox">
+              <label for="faq-e">
+                <p class="faq-heading">
+                  <i class="bi bi-lock"></i> How do I get access to my database?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">To access your database in Odoo, start by logging into your Odoo account. Once logged in, click on your username or profile picture in the top right corner to reveal a dropdown menu. Look for an option like "Manage Databases" or "My Databases" and click on it. You'll then see a list of databases associated with your account; simply select the one you wish to access. You'll be redirected to the chosen database, where you can efficiently manage and work with your data. It's a straightforward process to access your Odoo database, and if you have any additional inquiries or need further assistance, please don't hesitate to reach out. </p>
+              </label>
+              <input id="faq-f" type="checkbox">
+              <label for="faq-f">
+                <p class="faq-heading">
+                  <i class="bi bi-folder2-open"></i> How do I see previous orders?
+                </p>
+                <div class="faq-arrow"></div>
+                <p class="faq-text">To view previous orders in Odoo, simply log in to your account and navigate to the relevant section, either "Sales" or "Purchases." In that section, you will find a complete history of all the orders you have placed previously. </p>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <div class="accordeonFAQ">
+              <p>I want to start a new project.</p>
+              <button type="button" class="btn btn-primary">Buy Now <i class="bi bi-arrow-right-short"></i>
+              </button>
+              <button type="button" class="btn btn-light">Learn More </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator2"></div>
+    </section>
+    <!-- 6. FOOTER -->
+    <footer class="footer">
+      <div class="container footer">
+        <div class="wrapper row d-flex align-items-center">
+          <div class="col-12 col-md-6">
+            <h3>Brilliant solutions for your ideas</h3>
+            <p>Modern-looking websites. </p>
+          </div>
+          <div class="col-12 col-md-6 text-md-end">
+            <button type="button" class="btn btn-light my-3 my-lg-0" style="margin-right: 10px;">
+              <i class="bi bi-file-earmark" style="color: #008AFF"></i> Documentation </button>
+            <button type="button" class="btn btn-primary my-3 my-md-0">Purchase now</button>
+          </div>
+        </div>
+        <div class="infoFooter">
+          <div class="wrapper row">
+            <div class="col-12 col-md-5 me-auto">
+              <img src="_assets/odoo-white.svg" class="oddoFooterLogo" alt>
+              <p>Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
+              <div class="RRSS">
+                <img src="_assets/basketball.svg" alt="Basketball">
+                <img src="_assets/github.svg" alt="Github">
+                <img src="_assets/instagram.svg" alt="Instagram">
+                <img src="_assets/facebook.svg" alt="Facebook">
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex flex-column align-items-end footer-list">
+              <ul>
+                <li style="margin-bottom: 1em">
+                  <strong>Account</strong>
+                </li>
+                <li>Profile</li>
+                <li>Settings</li>
+                <li>Billing</li>
+                <li>Notifications</li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex flex-column align-items-end footer-list">
+              <ul>
+                <li style="margin-bottom: 1em">
+                  <strong>About</strong>
+                </li>
+                <li>Services</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex flex-column align-items-end footer-list">
+              <ul>
+                <li style="margin-bottom: 1em">
+                  <strong>Company</strong>
+                </li>
+                <li>Community</li>
+                <li>Help center</li>
+                <li>Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper row d-flex align-items-center">
+          <div class="col-12 col-md-6">
+            <p>© Odoo. All rights reserved</p>
+          </div>
+          <div class="d-flex col-12 col-md-4 col-lg-3 text-md-end">
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Cookies</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
