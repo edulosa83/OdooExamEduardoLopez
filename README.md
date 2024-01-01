@@ -4,6 +4,11 @@
 Welcome to my GitHub repository, where I will share the changes and adjustments made as part of my exam. Throughout this project, I will present these adjustments, highlighting the improvements and customizations I made to meet the exam requirements and demonstrate my skills in web development.
 </p>
 
+## Published page
+<p>
+https://qa.edlosa.com/
+</p>
+
 ## Changes and Adjustments
 
 ### Icon Replacement
