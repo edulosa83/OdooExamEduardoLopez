@@ -6,7 +6,7 @@ Welcome to my GitHub repository, where I will share the changes and adjustments 
 
 ## Published page
 <p>
-https://qa.edlosa.com/
+https://odoo.edlosa.com/
 </p>
 
 ## Changes and Adjustments
